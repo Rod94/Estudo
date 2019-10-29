@@ -63,7 +63,7 @@ mkdir nomeDaPasta
 - `margin` espaçamento fora dos elementos, respiro externo.
   Formas resumidas:
 
-```
+```css
 margin: top right bottom left;
 margin: top/bottom right/left;
 margin: top right/left bottom;
