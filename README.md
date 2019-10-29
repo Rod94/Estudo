@@ -1,0 +1,1 @@
+# Repositório com alguns itens de acesso rápido para estudar
