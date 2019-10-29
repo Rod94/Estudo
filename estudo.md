@@ -127,11 +127,6 @@ Exemplo:
 ```js
 `Carrinho(${++valorInicial})`
 ```
-
-- `JSON` JavaScript Object Notation
-
-- `Object Destructuring` pega os valores do objeto.
-
 Exemplo:
 
 ```js
@@ -157,3 +152,11 @@ if ternario
 condition ? expr1 : expr2 
 
 Se condition é true, o operador retornará o valor de expr1; se não, ele retorna o valor de exp2.
+
+## JSON - JavaScript Object Notation
+
+Json = {propriedade:valor}
+Quando é criada uma função dentro do objeto, é chamado de método.
+
+- `Object Destructuring` pega os valores do objeto.
+
