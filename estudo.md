@@ -148,10 +148,10 @@ Exemplo:
 ```js
 event => {}
 ```
-if ternario
-condition ? expr1 : expr2 
 
-Se condition é true, o operador retornará o valor de expr1; se não, ele retorna o valor de exp2.
+Valores considerados falsy =  `undefined, null, NaN, 0, -0, string vazia` e todos os outros !== desses é truthy.
+
+Condição ternário = `condição ? true : false`; Ideal para instruções pequenas para melhor leitura.
 
 ## JSON - JavaScript Object Notation
 
