@@ -155,8 +155,8 @@ Condição ternário = `condição ? true : false`; Ideal para instruções pequ
 
 ## JSON - JavaScript Object Notation
 
-Json = {propriedade:valor}
+Json = `{ propriedade:valor }`
 Quando é criada uma função dentro do objeto, é chamado de método.
 
-- `Object Destructuring` pega os valores do objeto.
+`Object Destructuring` pega os valores do objeto.
 
