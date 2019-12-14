@@ -81,7 +81,9 @@ padding: top/right/bottom/left;
 ```
 
 - `display: inline;` deixa elementos na mesma linha, nessa propriedade não conseguimos colocar width e height. Ele ganha o comportamento de uma palavra, um conteúdo.
+
 - `display: block;` não deixa elementos na mesma linha, nessa propriedade conseguimos colocar width e height.
+
 - `display: inline-block;` consegue deixar elementos na mesma linha e conseguimos definir width e height. Ele ganha o comportamento de uma palavra, um conteúdo.
 
 - `position: absolute;` ele cria um novo contexto, ficando na frente de todos na tela, o que define width e height é o conteúdo dentro dele, com `top, left, right, bottom` é possivel mover em relação a pagina.
@@ -160,3 +162,12 @@ Quando é criada uma função dentro do objeto, é chamado de método.
 
 `Object Destructuring` pega os valores do objeto.
 
+## ITCSS com React
+
+- Pasta SETTINGS: contém variáveis nos arquivos de cores, de tamanho e espaçamento, podem ter mais coisas, mas geralmente é o que tem nessa pasta.
+
+- Pasta TOOLS: são funções que mexem com o comportamento de outros arquivos. Exemplos: centralizar, botar para o lado direito ou esquerdo.
+
+- Pasta GENERIC: tem o arquivo reset.css
+
+- Pasta ELEMENTS/BASE: mexer o comportamento padrão das tags.
