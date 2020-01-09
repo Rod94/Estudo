@@ -161,6 +161,7 @@ Metodo HOISTING: esse metodo é implicito no javascript e faz a elevação na de
 Para evitar esse tipo de problema, é bom colocar as declarações de variavel sempre no começo da função.
 
 
+```js
 function myFunction() {
 	function sum(){
 		return number1 + number2;}
@@ -169,6 +170,7 @@ function myFunction() {
 	return sum();
 }
 console.log( myFunction() );
+```
 
 retorno do console = 4.
 
