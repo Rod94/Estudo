@@ -157,6 +157,19 @@ Condição ternário = `condição ? true : false`; Ideal para instruções pequ
 
 Método .push() = serve para adicionar itens ao seu Array.
 
+- Metodo HOISTING: esse metodo é implicito no javascript e faz a elevação na declaração da função literal. Esse metodo *NAO* funciona se tiver atribuido uma variavel 
+function myFunction() {
+	function sum(){
+		return number1 + number2;}
+	var number1 = 1;
+	var number2 = 3;
+	return sum();
+}
+console.log( myFunction() );
+
+retorno do console = 4.
+
+
 ## JSON - JavaScript Object Notation
 
 Json = `{ propriedade:valor }`
