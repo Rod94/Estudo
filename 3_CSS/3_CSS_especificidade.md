@@ -40,6 +40,8 @@ padding: top/right/bottom/left;
 
 - Para conseguir utilizar o `margin: auto`, o elemento tem que ser `display: block` tem que ter um `width`(largura) definida.
 
+- Para tirar o sublinhado do `<a></a>` é só colocar `text-decoration: none;`
+
 ## Especificidade de seletores (CSS)
 
 O de baixo sobreescreve o seletor de cima. Valores dos seletores para um melhor entendimento:
