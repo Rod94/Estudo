@@ -1,4 +1,9 @@
-# JavaScript
+<p align="center">
+  <img src="../img/js.svg" width="300">
+</p>
+
+
+## JavaScript
 
 - `addEventListener()` registra uma única espera de evento em um único alvo. O alvo do evento pode ser um único elemento em um documento, o documento em si, uma janela.
 

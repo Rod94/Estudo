@@ -1,4 +1,8 @@
-# Dicas do Terminal
+<p align="center">
+  <img src="../img/terminal.svg" width="300">
+</p>
+
+## Dicas do Terminal
 
 Lista de comandos que estou aprendendo:
 

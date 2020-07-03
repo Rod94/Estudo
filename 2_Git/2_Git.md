@@ -1,4 +1,8 @@
-# Git
+<p align="center">
+  <img src="../img/git.svg" width="300">
+</p>
+
+## Git
 
 - `git init` é usado para inicializar o repositório Git.
 
