@@ -48,7 +48,7 @@ padding: top/right/bottom/left;
 
 - Unidades relativas, como em ou rem, são relativas a outro valor de comprimento. Por exemplo, em é baseado no tamanho da fonte de um elemento. Se você usá-lo para definir a propriedade de tamanho da fonte, ela será relativa ao tamanho da fonte do pai.
 
-- Para criar variáveis no CSS precisa do `--`<br/>
+- Para criar variáveis no CSS precisa do `--`. Internet Explorer não aceita esse recurso.<br/>
 Exemplo:
 ```css
 --penguin-skin: gray;
@@ -62,19 +62,10 @@ background-color: var(--penguin-skin);
 ## Especificidade de seletores (CSS)
 
 O de baixo sobreescreve o seletor de cima. Valores dos seletores para um melhor entendimento:
-
+```
 seletor id => 100
 
 seletor class / pseudo seletores => 10
 
 seletor tag => 1
-
-## ITCSS com React
-
-- Pasta SETTINGS: contém variáveis nos arquivos de cores, de tamanho e espaçamento, podem ter mais coisas, mas geralmente é o que tem nessa pasta.
-
-- Pasta TOOLS: são funções que mexem com o comportamento de outros arquivos. Exemplos: centralizar, botar para o lado direito ou esquerdo.
-
-- Pasta GENERIC: tem o arquivo reset.css
-
-- Pasta ELEMENTS/BASE: mexer o comportamento padrão das tags.
+```
