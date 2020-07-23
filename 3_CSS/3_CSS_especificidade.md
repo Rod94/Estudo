@@ -46,6 +46,8 @@ padding: top/right/bottom/left;
 
 - Para tirar o sublinhado do `<a></a>` é só colocar `text-decoration: none;`
 
+- Unidades relativas, como em ou rem, são relativas a outro valor de comprimento. Por exemplo, em é baseado no tamanho da fonte de um elemento. Se você usá-lo para definir a propriedade de tamanho da fonte, ela será relativa ao tamanho da fonte do pai.
+
 ## Especificidade de seletores (CSS)
 
 O de baixo sobreescreve o seletor de cima. Valores dos seletores para um melhor entendimento:
