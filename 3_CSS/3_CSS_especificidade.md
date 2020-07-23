@@ -59,6 +59,9 @@ Exemplo:
 background-color: var(--penguin-skin);
 ```
 
+- Variáveis CSS são herdadas assim como suas propriedades comuns, para fazer uso da herança, as variáveis CSS são frequentemente definidas no elemento: `:root`.
+- `:root` é uma pseudo-classe que corresponde ao elemento raiz do documento.  Criando suas variáveis em: root, elas estarão disponíveis globalmente e podem ser acessadas de qualquer outro seletor.
+
 ## Especificidade de seletores (CSS)
 
 O de baixo sobreescreve o seletor de cima. Valores dos seletores para um melhor entendimento:
