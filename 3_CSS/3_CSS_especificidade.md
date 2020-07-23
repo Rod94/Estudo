@@ -8,7 +8,7 @@
 
 - `overflow: hidden` essa propriedade esconde o elemento, fazendo com que recalcule o contexto utilizado na propriedade `float`.
 
-- `margin` espaçamento fora dos elementos, respiro externo.
+- `margin` espaçamento fora dos elementos, respiro externo. Para melhor entendimento, é usado na forma no sentido horário.
   Formas resumidas:
 
 ```css
@@ -18,7 +18,7 @@ margin: top right/left bottom;
 margin: top/right/bottom/left;
 ```
 
-- `padding` espaçamento dentro dos elementos, respiro interno.
+- `padding` espaçamento dentro dos elementos, respiro interno. Para melhor entendimento, é usado na forma no sentido horário.
   Formas resumidas:
 
 ```css
