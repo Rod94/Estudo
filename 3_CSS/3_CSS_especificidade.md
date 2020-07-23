@@ -8,8 +8,8 @@
 
 - `overflow: hidden` essa propriedade esconde o elemento, fazendo com que recalcule o contexto utilizado na propriedade `float`.
 
-- `margin` espaçamento fora dos elementos, respiro externo. Para melhor entendimento, é usado na forma no sentido horário.
-  Formas resumidas:
+- `margin` espaçamento fora dos elementos, respiro externo. Para melhor entendimento, é usado na forma no sentido horário.<br/>
+  Exemplos:
 
 ```css
 margin: top right bottom left;
@@ -18,8 +18,8 @@ margin: top right/left bottom;
 margin: top/right/bottom/left;
 ```
 
-- `padding` espaçamento dentro dos elementos, respiro interno. Para melhor entendimento, é usado na forma no sentido horário.
-  Formas resumidas:
+- `padding` espaçamento dentro dos elementos, respiro interno. Para melhor entendimento, é usado na forma no sentido horário.<br/>
+  Exemplos:
 
 ```css
 padding: top right bottom left;
@@ -47,6 +47,12 @@ padding: top/right/bottom/left;
 - Para tirar o sublinhado do `<a></a>` é só colocar `text-decoration: none;`
 
 - Unidades relativas, como em ou rem, são relativas a outro valor de comprimento. Por exemplo, em é baseado no tamanho da fonte de um elemento. Se você usá-lo para definir a propriedade de tamanho da fonte, ela será relativa ao tamanho da fonte do pai.
+
+- Para criar variáveis no CSS precisa do `--`<br/>
+Exemplo:
+```css
+--penguin-skin: gray;
+``` 
 
 ## Especificidade de seletores (CSS)
 
