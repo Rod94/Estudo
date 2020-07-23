@@ -53,6 +53,11 @@ Exemplo:
 ```css
 --penguin-skin: gray;
 ``` 
+E para utilizar essa variável é necessário utilizar o `var()`.<br>
+Exemplo:
+```css
+background-color: var(--penguin-skin);
+```
 
 ## Especificidade de seletores (CSS)
 
