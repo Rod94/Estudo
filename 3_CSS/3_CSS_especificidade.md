@@ -36,6 +36,8 @@ padding: top/right/bottom/left;
 
 - `position: absolute;` ele cria um novo contexto, ficando na frente de todos na tela, o que define width e height é o conteúdo dentro dele, com `top, left, right, bottom` é possivel mover em relação a pagina.
 
+- `position: relative;` ele cria um novo contexto e tambem pode ser movido com `top, left, right, bottom` **ATUALIZAR DEPOIS**
+
 - `box-sizing` padrão é `content-box`, colocando `border-box` o que voce informou no de width/height, é o que ele utiliza, já no `content-box`, ele absorve se você colocou alguma borda.
 
 - `max-width` serve pra colocar o maximo de largura que o site vai ter para a tela
