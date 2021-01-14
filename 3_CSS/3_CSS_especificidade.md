@@ -4,6 +4,20 @@
 
 ## CSS
 
+- Centralizando algo em relação ao pai
+
+```css
+.elemento-pai {
+  position: relative;
+}
+.elemento-filho {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+```
+
 - `float` o elemento fica flutuando e caso tenha algum elemento abaixo, esse ultimo ocupa o espaço junto com o que foi utilizado o float, sendo que o que foi usado a propriedade float, vai para a frente. Float nunca esconde um conteúdo, o conteúdo define a largura(width) e altura(height) do elemento caso não seja definido. A propriedade float tem o comportamento de tirar do elemento pai, cria um novo contexto.
 
 - `overflow: hidden` essa propriedade esconde o elemento, fazendo com que recalcule o contexto utilizado na propriedade `float`.
@@ -74,3 +88,4 @@ seletor class / pseudo seletores => 10
 
 seletor tag => 1
 ```
+
