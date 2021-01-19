@@ -37,15 +37,29 @@ const { src, alt, nameClass } = card;
 Exemplo:
 
 ```js
-() => {}
+const algumNome = () => {
+	return algo;
+}
 ```
 
-Quando tem apenas um atributo nos parenteses, nao é necessário o uso do mesmo.
+Quando tem apenas um parâmetro nos parenteses, nao é necessário o uso do mesmo.
 
 Exemplo:
 
 ```js
-event => {}
+const algumNome = event => {
+	return event;
+}
+```
+
+Você pode conseguir retornar algo sem a palavra `return` de fato, para isso voce precisa tirar os bigodes e colocar parênteses.
+
+Exemplo:
+
+```js
+const algumNome = () => (
+
+)
 ```
 
 Valores considerados falsy =  `undefined, null, NaN, 0, -0, string vazia` e todos os outros !== desses é truthy.
