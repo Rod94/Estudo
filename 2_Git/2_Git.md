@@ -27,3 +27,5 @@
 - `git rm -rf "nome do arquivo" --cached` remove do repositorio git mas não remove o arquivo.
 
 - `.gitignore` nesse arquivo é possivel adicionar os nomes dos arquivos que voce nao quer que o git ignore e não suba para o github.
+
+- `git pull` serve para baixar tudo aquilo que está diferente no servidor remoto para o local.
