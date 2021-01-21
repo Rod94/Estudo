@@ -22,8 +22,9 @@
 
 - `overflow: hidden` essa propriedade esconde o elemento, fazendo com que recalcule o contexto utilizado na propriedade `float`.
 
-- `margin` espaçamento fora dos elementos, respiro externo. Para melhor entendimento, é usado na forma no sentido horário.<br/>
-  Exemplos:
+- `margin` espaçamento fora dos elementos, respiro externo. Para melhor entendimento, é usado na forma no sentido horário.
+
+Exemplos:
 
 ```css
 margin: top right bottom left;
@@ -32,8 +33,9 @@ margin: top right/left bottom;
 margin: top/right/bottom/left;
 ```
 
-- `padding` espaçamento dentro dos elementos, respiro interno. Para melhor entendimento, é usado na forma no sentido horário.<br/>
-  Exemplos:
+- `padding` espaçamento dentro dos elementos, respiro interno. Para melhor entendimento, é usado na forma no sentido horário.
+
+Exemplos:
 
 ```css
 padding: top right bottom left;
@@ -64,18 +66,21 @@ padding: top/right/bottom/left;
 
 - Unidades relativas, como em ou rem, são relativas a outro valor de comprimento. Por exemplo, em é baseado no tamanho da fonte de um elemento. Se você usá-lo para definir a propriedade de tamanho da fonte, ela será relativa ao tamanho da fonte do pai.
 
-- Para criar variáveis no CSS precisa do `--`. Internet Explorer não aceita esse recurso.<br/>
+- Para criar variáveis no CSS precisa do `--`. Internet Explorer não aceita esse recurso.
+
 Exemplo:
 ```css
 --penguin-skin: gray;
 ``` 
-E para utilizar essa variável é necessário utilizar o `var()`.<br>
+E para utilizar essa variável é necessário utilizar o `var()`.
+
 Exemplo:
 ```css
 background-color: var(--penguin-skin);
 ```
 
 - Variáveis CSS são herdadas assim como suas propriedades comuns, para fazer uso da herança, as variáveis CSS são frequentemente definidas no elemento: `:root`.
+
 - `:root` é uma pseudo-classe que corresponde ao elemento raiz do documento.  Criando suas variáveis em: root, elas estarão disponíveis globalmente e podem ser acessadas de qualquer outro seletor.
 
 ## Especificidade de seletores (CSS)
