@@ -11,11 +11,6 @@
 
 - `forEach` percorre cada item de uma lista, array.
 
-Exemplo:
-
-```js
-$stars.forEach()
-```
 
 BOA PRÁTICA - Toda variável que fazemos referencia ao HTML, colocamos um prefixo, esse prefixo é um `$`
 
@@ -24,12 +19,8 @@ TEMPLATE STRING - Facilita o modo de colocar texto com uma variável. É usado a
 Exemplo:
 
 ```js
-`Carrinho(${++valorInicial})`
-```
-Exemplo:
-
-```js
-const { src, alt, nameClass } = card;
+let valorInicial = 10
+`Carrinho(${valorInicial})`
 ```
 
 #### Arrow functions
@@ -62,11 +53,11 @@ const algumNome = () => (
 )
 ```
 
-Valores considerados falsy =  `undefined, null, NaN, 0, -0, string vazia` e todos os outros !== desses é truthy.
+Valores considerados falsy =  `undefined, null, NaN, 0, -0, string vazia` e todos os outros diferentes desses é truthy.
 
-Condição ternário = `condição ? true : false`; Ideal para instruções pequenas para melhor leitura.
+`If ternário`= `condição ? true : false`; Ideal para instruções pequenas para melhor leitura.
 
-Método .push() = serve para adicionar itens ao seu Array.
+Método `.push()` = serve para adicionar itens ao seu Array.
 
 Metodo HOISTING: esse metodo é implicito no javascript e faz a elevação na declaração da função literal. Esse metodo *NAO* funciona se tiver atribuido uma variavel. 
 Para evitar esse tipo de problema, é bom colocar as declarações de variavel sempre no começo da função.
