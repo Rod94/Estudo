@@ -20,7 +20,7 @@
 
 - `git remote add origin + 'ssh' ou 'https'` serve pra adicionar o link junto ao repositório
 
-- `git push -u origin master` serve para empurrar do repositório local(`master`) para o repositório remoto(`origin`).
+- `git push -u origin master` serve para empurrar do repositório local(`master`) para o repositório remoto(`origin`), só precisa fazer isso pela primeira vez, depois podemos utilizar o `git push`.
 
 - `git commit --amend` vai abrir seu editor com o conteúdo da mensagem do último commit e você pode editar da forma que quiser.
 
