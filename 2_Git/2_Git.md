@@ -8,7 +8,7 @@
 
 - `git status` vê o estado do repositório.
 
-- `git add` vai guardar os itens selecionados que tem na pasta.
+- `git add index.html` vai guardar somente o item que voce escreveu ao lado do `git add`.
 
 - `git add .` vai guardar todos os itens que tem na pasta.
 
