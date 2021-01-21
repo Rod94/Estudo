@@ -10,4 +10,4 @@
 1. [Terminal](/1_Terminal/1_DicasTerminal.md)
 2. [Git](/2_Git/2_Git.md)
 3. [CSS](/3_CSS/3_CSS_especificidade.md)
-4. [JavaScript](/4_JS/4_JS_JSON.md)
+4. [JavaScript](/4_JavaScript/4_JavaScript.md)

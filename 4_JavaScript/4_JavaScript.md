@@ -77,12 +77,6 @@ console.log( myFunction() );
 retorno do console = 4.
 
 
-## JSON - JavaScript Object Notation
-
-Json = `{ propriedade:valor }`
-Quando é criada uma função dentro do objeto, é chamado de método.
-
-
 ```js
 const createMemoryCard = ({ alt, nameClass, src }) => 
  `  <article class="memory-card ${nameClass}">
@@ -95,3 +89,6 @@ No exemplo acima estou colocando os parametros da função como objeto para que 
 const $memoryCardPHP = createMemoryCard({ src: "img/icon-php.png", alt: "icone php", nameClass: "-front"});
 ```
 E é o que estou fazendo, tenho que observar que para transformar em objeto, preciso usar os bigodes. Isso é chamado de `Object Destructuring` ou `Desestruturação de Objetos`. Tem varias formas que eu posso utiliza-lo.
+
+JSON - JavaScript Object Notation = `{ propriedade: valor }`
+Quando é criada uma função dentro do objeto, é chamado de método.
