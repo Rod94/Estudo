@@ -5,11 +5,26 @@
 
 ## JavaScript
 
+- `onClick="handleClick(this)"` o `this` nesse caso faz referencia ao conteudo que você colocar
+
+No caso abaixo, está fazendo referencia a tag `div`
+
+```html
+	<div class="memory-card" onClick="handleClick(this)">
+		<article class="card -front">
+			<img class="icon" src="${src}" alt="${alt}">
+		</article>
+		<article class="card">
+			<img class="icon" src="img/icon-collabcode.png" alt="Gueio Collabcode">
+		</article>
+	</div>
+``` 
+
 - `addEventListener()` registra uma única espera de evento em um único alvo. O alvo do evento pode ser um único elemento em um documento, o documento em si, uma janela.
 
 - `classList.toggle()` toggle significa alternancia, caso estiver dentro dos parenteses esteja ativo, ele remove, se nao estiver ativo, ele ativa.
 
-- `forEach` percorre cada item de uma lista, array.
+- `forEach` percorre cada item de um array.
 
 
 BOA PRÁTICA - Toda variável que fazemos referencia ao HTML, colocamos um prefixo, esse prefixo é um `$`
