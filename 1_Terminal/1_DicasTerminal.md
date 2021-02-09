@@ -27,3 +27,9 @@ mkdir nomeDaPasta
 ```
 
 - `setas cima ou baixo` vai pegando o histórico ja digitado no terminal.
+
+- `rm "arquivo"` remove um arquivo 
+
+- `rmdir "diretorio"` remove o diretorio só quando o mesmo estiver vazio.
+
+- `rm -r "diretorio"` remove o diretorio que nao está vazio. O `-r` significa recursividade.
