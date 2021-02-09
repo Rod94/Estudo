@@ -24,7 +24,7 @@
 
 - `git commit --amend` vai abrir seu editor com o conteúdo da mensagem do último commit e você pode editar da forma que quiser.
 
-- `git rm -rf "nome do arquivo" --cached` remove do repositorio git mas não remove o arquivo.
+- `git rm "nome do arquivo" --cached` remove do repositorio git mas não remove o arquivo.
 
 - `.gitignore` nesse arquivo é possivel adicionar os nomes dos arquivos que voce nao quer que o git ignore e não suba para o github.
 
