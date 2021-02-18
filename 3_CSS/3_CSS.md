@@ -83,6 +83,8 @@ background-color: var(--penguin-skin);
 
 - `:root` é uma pseudo-classe que corresponde ao elemento raiz do documento.  Criando suas variáveis em: root, elas estarão disponíveis globalmente e podem ser acessadas de qualquer outro seletor.
 
+- `stroke` dá para mudar a borda e a cor de uma imagem SVG
+
 ## Especificidade de seletores (CSS)
 
 O de baixo sobreescreve o seletor de cima. Valores dos seletores para um melhor entendimento:
