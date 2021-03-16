@@ -17,6 +17,16 @@
   transform: translate(-50%, -50%);
 }
 ```
+- Uma outra forma de centralizar algo
+
+```css
+.elemento {
+  display: block;
+  margin: 0 auto;
+}
+```
+
+- Só da para utilizar o `margin: 0 auto` quando o elemento tiver o `display: block` ou `display: table`, o elemento deve ter um `width` setado, quando o elemento não tiver `float` e o elemento não pode ter o `position: absolute` ou `position: static`
 
 - `float` o elemento fica flutuando e caso tenha algum elemento abaixo, esse ultimo ocupa o espaço junto com o que foi utilizado o float, sendo que o que foi usado a propriedade float, vai para a frente. Float nunca esconde um conteúdo, o conteúdo define a largura(width) e altura(height) do elemento caso não seja definido. A propriedade float tem o comportamento de tirar do elemento pai, cria um novo contexto.
 
@@ -60,11 +70,9 @@ padding: top/right/bottom/left;
 
 - `@media` sempre que ver algum `breakpoint`(quando o site quebra linhas e muda o layout do site) é usado essa propriedade.
 
-- Para conseguir utilizar o `margin: auto`, o elemento tem que ser `display: block` tem que ter um `width`(largura) definida.
-
 - Para tirar o sublinhado do `<a></a>` é só colocar `text-decoration: none;`
 
-- Unidades relativas, como em ou rem, são relativas a outro valor de comprimento. Por exemplo, em é baseado no tamanho da fonte de um elemento. Se você usá-lo para definir a propriedade de tamanho da fonte, ela será relativa ao tamanho da fonte do pai.
+- Unidades relativas, como `em` ou `rem`, são relativas a outro valor de comprimento. Por exemplo, em é baseado no tamanho da fonte de um elemento. Se você usá-lo para definir a propriedade de tamanho da fonte, ela será relativa ao tamanho da fonte do pai.
 
 - Para criar variáveis no CSS precisa do `--`. Internet Explorer não aceita esse recurso.
 
