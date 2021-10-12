@@ -4,33 +4,6 @@
 
 ## CSS
 
-- Centralizando algo em relação ao pai
-
-```css
-.elemento-pai {
-  position: relative;
-}
-.elemento-filho {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-```
-- Uma outra forma de centralizar algo
-
-```css
-.elemento {
-  display: block;
-  margin: 0 auto;
-}
-```
-
-- Só da para utilizar o `margin: 0 auto` quando o elemento tiver o `display: block` ou `display: table`, o elemento deve ter um `width` setado, quando o elemento não tiver `float` e o elemento não pode ter o `position: absolute` ou `position: static`
-
-- `float` o elemento fica flutuando e caso tenha algum elemento abaixo, esse ultimo ocupa o espaço junto com o que foi utilizado o float, sendo que o que foi usado a propriedade float, vai para a frente. Float nunca esconde um conteúdo, o conteúdo define a largura(width) e altura(height) do elemento caso não seja definido. A propriedade float tem o comportamento de tirar do elemento pai, cria um novo contexto.
-
-- `overflow: hidden` essa propriedade esconde o elemento, fazendo com que recalcule o contexto utilizado na propriedade `float`.
 
 - `margin` espaçamento fora dos elementos, respiro externo. Para melhor entendimento, é usado na forma no sentido horário.
 
@@ -54,11 +27,43 @@ padding: top right/left bottom;
 padding: top/right/bottom/left;
 ```
 
+## Centralizando elementos em relação ao pai
+
+```css
+.elemento-pai {
+  position: relative;
+}
+.elemento-filho {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+```
+- Uma outra forma de centralizar elemento
+
+```css
+.elemento {
+  display: block;
+  margin: 0 auto;
+}
+```
+
+- Só da para utilizar o `margin: 0 auto` quando o elemento tiver o `display: block` ou `display: table`, o elemento deve ter um `width` setado, quando o elemento não tiver `float` e o elemento não pode ter o `position: absolute` ou `position: static`
+
+- `float` o elemento fica flutuando e caso tenha algum elemento abaixo, esse ultimo ocupa o espaço junto com o que foi utilizado o float, sendo que o que foi usado a propriedade float, vai para a frente. Float nunca esconde um conteúdo, o conteúdo define a largura(width) e altura(height) do elemento caso não seja definido. A propriedade float tem o comportamento de tirar do elemento pai, cria um novo contexto.
+
+- `overflow: hidden` essa propriedade esconde o elemento, fazendo com que recalcule o contexto utilizado na propriedade `float`.
+
+## Display: inline, block, inline-block
+
 - `display: inline;` deixa elementos na mesma linha, nessa propriedade não conseguimos colocar width e height. Ele ganha o comportamento de uma palavra, um conteúdo.
 
 - `display: block;` não deixa elementos na mesma linha, nessa propriedade conseguimos colocar width e height.
 
 - `display: inline-block;` consegue deixar elementos na mesma linha e conseguimos definir width e height. Ele ganha o comportamento de uma palavra, um conteúdo.
+
+## Position
 
 - `position: absolute;` ele cria um novo contexto, ficando na frente de todos na tela, o que define width e height é o conteúdo dentro dele, com `top, left, right, bottom` é possivel mover em relação a pagina.
 
