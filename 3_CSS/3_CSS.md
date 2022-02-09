@@ -49,7 +49,7 @@ padding: top/right/bottom/left;
 }
 ```
 
-- Só da para utilizar o `margin: 0 auto` quando o elemento tiver o `display: block` ou `display: table`, o elemento deve ter um `width` setado, quando o elemento não tiver `float` e o elemento não pode ter o `position: absolute` ou `position: static`
+- Só da para utilizar o `margin: 0 auto` quando o elemento tiver o `display: block` ou `display: table`, o elemento deve ter um `width` setado, quando o elemento não tiver `float`, o elemento não pode ter o `position: absolute` ou `position: static`
 
 - `float` o elemento fica flutuando e caso tenha algum elemento abaixo, esse ultimo ocupa o espaço junto com o que foi utilizado o float, sendo que o que foi usado a propriedade float, vai para a frente. Float nunca esconde um conteúdo, o conteúdo define a largura(width) e altura(height) do elemento caso não seja definido. A propriedade float tem o comportamento de tirar do elemento pai, cria um novo contexto.
 
