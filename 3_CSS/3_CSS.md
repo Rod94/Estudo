@@ -27,13 +27,10 @@ padding: top right/left bottom;
 padding: top/right/bottom/left;
 ```
 
-## Centralizando elementos em relação ao pai
+## Centralizando elementos
 
 ```css
-.elemento-pai {
-  position: relative;
-}
-.elemento-filho {
+.elemento {
   position: absolute;
   left: 50%;
   top: 50%;
