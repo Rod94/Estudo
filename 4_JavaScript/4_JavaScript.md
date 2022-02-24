@@ -70,7 +70,7 @@ const algumNome = () => (
 
 Valores considerados falsy =  `undefined, null, NaN, 0, -0, string vazia` e todos os outros diferentes desses é truthy.
 
-`If ternário`= `condição ? true : false`; Ideal para instruções pequenas para melhor leitura.
+`If ternário`= `condição ? true : false` Ideal para instruções pequenas para melhor leitura.
 
 Método `.push()` = serve para adicionar itens ao seu Array.
 
