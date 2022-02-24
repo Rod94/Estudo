@@ -27,13 +27,10 @@ padding: top right/left bottom;
 padding: top/right/bottom/left;
 ```
 
-## Centralizando elementos em relação ao pai
+## Centralizando elementos
 
 ```css
-.elemento-pai {
-  position: relative;
-}
-.elemento-filho {
+.elemento {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -49,7 +46,7 @@ padding: top/right/bottom/left;
 }
 ```
 
-- Só da para utilizar o `margin: 0 auto` quando o elemento tiver o `display: block` ou `display: table`, o elemento deve ter um `width` setado, quando o elemento não tiver `float` e o elemento não pode ter o `position: absolute` ou `position: static`
+- Só da para utilizar o `margin: 0 auto` quando o elemento tiver o `display: block` ou `display: table`, o elemento deve ter um `width` setado, quando o elemento não tiver `float`, o elemento não pode ter o `position: absolute` ou `position: static`
 
 - `float` o elemento fica flutuando e caso tenha algum elemento abaixo, esse ultimo ocupa o espaço junto com o que foi utilizado o float, sendo que o que foi usado a propriedade float, vai para a frente. Float nunca esconde um conteúdo, o conteúdo define a largura(width) e altura(height) do elemento caso não seja definido. A propriedade float tem o comportamento de tirar do elemento pai, cria um novo contexto.
 
@@ -69,6 +66,8 @@ padding: top/right/bottom/left;
 
 - `position: relative;` ele cria um novo contexto e tambem pode ser movido com `top, left, right, bottom` **ATUALIZAR DEPOIS**
 
+## Outras coisas
+
 - `box-sizing` padrão é `content-box`, colocando `border-box` o que voce informou no de width/height, é o que ele utiliza, já no `content-box`, ele absorve se você colocou alguma borda.
 
 - `max-width` serve pra colocar o maximo de largura que o site vai ter para a tela
@@ -77,7 +76,11 @@ padding: top/right/bottom/left;
 
 - Para tirar o sublinhado do `<a></a>` é só colocar `text-decoration: none;`
 
+- `stroke` dá para mudar a borda e a cor de uma imagem SVG
+
 - Unidades relativas, como `em` ou `rem`, são relativas a outro valor de comprimento. Por exemplo, em é baseado no tamanho da fonte de um elemento. Se você usá-lo para definir a propriedade de tamanho da fonte, ela será relativa ao tamanho da fonte do pai.
+
+## Variáveis CSS
 
 - Para criar variáveis no CSS precisa do `--`. Internet Explorer não aceita esse recurso.
 
@@ -96,7 +99,6 @@ background-color: var(--penguin-skin);
 
 - `:root` é uma pseudo-classe que corresponde ao elemento raiz do documento.  Criando suas variáveis em: root, elas estarão disponíveis globalmente e podem ser acessadas de qualquer outro seletor.
 
-- `stroke` dá para mudar a borda e a cor de uma imagem SVG
 
 ## Especificidade de seletores (CSS)
 
