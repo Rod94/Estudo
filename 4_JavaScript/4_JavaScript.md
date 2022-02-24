@@ -5,20 +5,6 @@
 
 ## JavaScript
 
-- `onClick="handleClick(this)"` o `this` nesse caso faz referencia ao conteudo que você colocar
-
-No caso abaixo, está fazendo referencia a tag `div`
-
-```html
-	<div class="memory-card" onClick="handleClick(this)">
-		<article class="card -front">
-			<img class="icon" src="${src}" alt="${alt}">
-		</article>
-		<article class="card">
-			<img class="icon" src="img/icon-collabcode.png" alt="Gueio Collabcode">
-		</article>
-	</div>
-``` 
 
 - `addEventListener()` registra uma única espera de evento em um único alvo. O alvo do evento pode ser um único elemento em um documento, o documento em si, uma janela.
 
@@ -73,23 +59,6 @@ Valores considerados falsy =  `undefined, null, NaN, 0, -0, string vazia` e todo
 `If ternário`= `condição ? true : false` Ideal para instruções pequenas para melhor leitura.
 
 Método `.push()` = serve para adicionar itens ao seu Array.
-
-Metodo HOISTING: esse metodo é implicito no javascript e faz a elevação na declaração da função literal. Esse metodo *NAO* funciona se tiver atribuido uma variavel. 
-Para evitar esse tipo de problema, é bom colocar as declarações de variavel sempre no começo da função.
-
-
-```js
-function myFunction() {
-	function sum(){
-		return number1 + number2;}
-	var number1 = 1;
-	var number2 = 3;
-	return sum();
-}
-console.log( myFunction() );
-```
-
-retorno do console = 4.
 
 
 ```js
