@@ -19,7 +19,6 @@ Regra geral para printf
 É uma referência para o próprio objeto, ele diferencia atributos de variáveis locais.
 
 ### Construtores
-
 Usos comuns:
 - Iniciar valores dos atributos.
 - Permitir ou obrigar que o objeto receba dados/dependências no momento de sua instaciação(injeção de dependência).
@@ -41,6 +40,36 @@ public class Product {
     this.quantity = quantity;
   }
 }
+Product product = new Product(name, price, quantity);
+```
+### Encapsulamento
+Regra geral básica:
+- Um objeto **NÃO** deve expor nenhum atributo(usando private).
+- Usando o private **NÃO** deixa ser acessados por outras classes.
+- Para alterar o valor do atributo, devemos usar `getAtributo` e `setAtributo`.
 
-Product product = new Product(name, price, quantity)
+```java
+  private String name;
+  private double price;
+
+  public Product(String name, double price){
+    this.name = name;
+    this.price = price
+  }
+
+  public String getName(){
+    return name;
+  } 
+
+  public void setName(String name){
+    this.name = name;
+  }
+
+    public double getPrice(){
+    return price;
+  } 
+
+  public void setPrice(double price){
+    this.price = price;
+  }
 ```
