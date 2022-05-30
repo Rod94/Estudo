@@ -13,6 +13,8 @@ Regra geral para printf
 - %s = texto
 
 - %n = quebrar linha
+#### This
+É uma referência para o próprio objeto, ele diferencia atributos de variáveis locais.
 
 
 #### Construtores
