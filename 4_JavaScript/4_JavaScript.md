@@ -24,7 +24,7 @@ let valorInicial = 10
 `Carrinho(${valorInicial})`
 ```
 
-#### Arrow functions
+### Arrow functions
 
 Exemplo:
 
