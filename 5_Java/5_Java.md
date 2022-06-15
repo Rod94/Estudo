@@ -73,3 +73,14 @@ Regra geral básica:
     this.price = price;
   }
 ```
+
+### Listas
+Lista é uma estrutura de dados:
+- Recebe dados do mesmo tipo
+- Elementos acessados por meio de posições
+- Inicia vazia e seus elementos são alocados sob demanda
+- Cada elemento ocupa um nó
+
+Vantagens:
+- Tamanho variável
+- Facilidade para realizar inserções e deleções
